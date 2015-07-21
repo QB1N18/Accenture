@@ -1,4 +1,15 @@
-  html, body, div, span, applet, object, iframe,
+/*****************************************************/
+/*   1-RESET                                         */
+/*   2-PRIMERA PARTE - INDEX                         */
+/*   3-SEGUNDA PARTE - INDEX                         */
+/*   4-TERCERA PARTE - INDEX                         */
+/*   5-CUARTA PARTE  - INDEX                         */
+/*****************************************************/
+
+
+/********************************RESET*********************************************/
+
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -33,24 +44,24 @@ footer, header, hgroup, menu, nav, section {
     line-height: 1.429;
     margin: 0;
     padding: 0;
-    height: 2000px;
+    /*height: 1800px;*/
     text-align: left;
   }
 
-  #barranaranjasuperior{
+
+/***************************************PRIMERA PARTE-INDEX************************************/
+  body #barranaranja{
   background-color: #ed6c4e;
   height: 10px;
   width: 100%;
   }
 
-  #primerapartegris{
-    background-color: #323a45;
-    height: 500px;
+  body #primera-parte-gris{
+    background-color: #323a45;    
     width: 100%;
-
   }
 
-    header nav {
+  body #primera-parte-gris header nav {
     height: 45px;
     line-height: 30px;
     margin: auto;
@@ -62,24 +73,24 @@ footer, header, hgroup, menu, nav, section {
     -webkit-border-radius: 5px;
   }
   
-  header nav ul {list-style: none; margin: 0 auto; width: 800px;}
-  header nav li {float: left; display: inline; margin: 0;}
+  body #primera-parte-gris header nav ul {list-style: none; margin: 0 auto; width: 800px;}
+  body #primera-parte-gris header nav li {float: left; /*display: inline; */margin: 0;}
   
-  header nav a:link, #banner nav a:visited {
+  body #primera-parte-gris header nav a:link, #banner nav a:visited {
     color: #68707b;
     display: inline-block;
     height: 30px;
     padding: 5px 1.5em;
     text-decoration: none;
   }
-  header nav a:hover, #banner nav a:active,
-  header nav .active a:link, #banner nav .active a:visited {
+  body #primera-parte-gris header nav a:hover, #banner nav a:active,
+  body #primera-parte-gris header nav .active a:link, #banner nav .active a:visited {
     background: #292f39;
     color: #68707b;    
     border-bottom:3px solid #ed6c4e;
   }
 
-  #logo{
+  body #primera-parte-gris #logo{
     clear:both;
     margin: auto;
     text-align: center;
@@ -87,73 +98,217 @@ footer, header, hgroup, menu, nav, section {
     height:70px;
   }
 
-  #textoprincipal{
+   body #primera-parte-gris #textoprincipal{
     font-size: 2.5em;
     color: #68707b
   }
 
-  #textoprincipal span{
-    
+   body #primera-parte-gris #textoprincipal span{    
     color: #ed6c4e;
   }
 
-  #circulos{
+   body #primera-parte-gris #circulos{
     width: 700px;
     height: 200px;
+    padding-bottom: 100px;
   }
 
-#segundapartenaranja{
-    background-color: #ed6c4e;
-    height: 450px;
-    width: 100%;
 
+/****************************************SEGUNDA PARTE-INDEX****************************/
+
+#segunda-parte-naranja{
+    background-color: #ed6c4e;    
+    width: 100%;
   }
   
-#segundapartenaranja h1{
-  color: #fff;
-  font-size: 2em;
-  margin: auto;
-  padding-top: 40px;
-    
+#segunda-parte-naranja h1{
+    color: #fff;
+    font-size: 2em;
+    margin: auto;
+    padding-top: 40px;    
   }
 
- section ol li {float: left; display: inline; margin: 0;}
+#segunda-parte-naranja #content{
+    height: 350px;
+  }
 
-section ol  li .hentry{
+#segunda-parte-naranja section ol{
+    text-align: center;
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#segunda-parte-naranja section ol li {float: left; display: inline; margin: 0;}
+
+#segunda-parte-naranja section ol  li .hentry{
     width: 250px;
     border-right: 0.08em solid #fff;
-   
-}
+  }
+
+#segunda-parte-naranja section ol li:last-child .hentry{
+    border-right:  0 none;
+  }
 
 
-#titulo h1{
+#segunda-parte-naranja section ol li article #titulo h1{
     font-size: 3em;
-}
+  }
 
-#titulo h2{
+#segunda-parte-naranja section ol li article #titulo h2{
     font-size: 1em;
     color: #fff;
-}
+  }
 
-.entry-content{
+#segunda-parte-naranja section ol li article .entry-content{
     font-size: .8em;
     color:#fff;
     padding-top: 40px
-
 }
 
-section ol{
-      text-align: center;
+#segunda-parte-naranja section ol li article .post-info{
+    padding-top: 40px;
+    font-size: 1.3em;
+    color:#fff; 
+  }
+  
+/*******************************************TERCERA PARTE-INDEX**************************/
+  #tercera-parte-gris{
+    background-color: #323a45;   
+    width: 100%;
+  }
+
+  #tercera-parte-gris #seccion ol li {float: left; display: inline; margin: 0;}
+
+  #tercera-parte-gris #seccion ol li .articulo{
+    width: 350px; 
+    padding-left: 50px;
+    text-align: left;   
+  }
+
+  #tercera-parte-gris #seccion{
+    padding-top: 50px;
+    height: 350px;
+  }
+
+
+  #tercera-parte-gris .articulo #titulo h1{
+    font-size: 2em;
+    color:#fff;
+    text-align: left;
+  }
+
+  #tercera-parte-gris .articulo #titulo h2{
+    font-size: 1em;
+    color: #fff;
+    text-align: left;
+  }
+
+  #tercera-parte-gris #imagenseccion{
+    float: left;
+    padding-top: 50px;
+    width:90px;
+    height:90px;
+  }
+
+  #tercera-parte-gris .articulo .entry-content{
+    font-size: .8em;
+    color:#fff;    
+    text-align:left;
+    float: right;
+    width:250px;
+    padding-top: 80px;
+  }
+
+  #tercera-parte-gris .articulo .entry-content p{text-align: left;}
+
+  #tercera-parte-gris .articulo .entry-content h2{
+    text-align: left;
+    padding-top: 50px;
+    font-size: 2em;
+  }
+
+  #tercera-parte-gris section ol{
+    text-align: center;
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tercera-parte-gris .post-info{
+    padding-top: 40px;
+    font-size: 1.3em;
+    color:#fff;
+  }
+
+/***********************************************CUARTA PARTE- INDEX *********************/
+
+
+#foot{
+    background-color: #292f39;
+   /* height: 500px;*/
+    width: 100%;
+}
+
+#foot section ol{
   width: 800px;
   height: 100px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-.post-info{
-    padding-top: 40px;
-    font-size: 1.3em;
-    color:#fff;
+#seccionfoot ol li {float: left; display: inline; margin: 0;}
+
+#seccionfoot ol li .articulo{
+    width: 350px; 
+    padding-left: 50px;
+    text-align: left;   
 }
-  
+
+#seccionfoot{
+    padding-top: 50px;
+    height:150px;
+}
+
+#imagenseccionfoot-1{   
+    width:30px;
+    height:30px;
+    padding-left: 200px;
+}
+
+#imagenseccionfoot-2{   
+    width:30px;
+    height:30px;
+    padding-left: 50px;
+}
+
+.entry-content-footer-1 p{
+    font-size: .8em;   
+    color:#3A4451;       
+    width:250px;
+    padding-top: 5px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.entry-content-footer-2 p{
+    font-size: .8em;   
+    color:#3A4451;       
+    width:140px;
+    padding-top: 5px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+  footer #logo{   
+    width: 100px;
+    height:70px;
+  }
+
+footer #logodos{   
+    width: 150px;
+    height:100px;
+    padding-top: 30px;
+  }
