@@ -4,6 +4,9 @@
 /*   3-SEGUNDA PARTE - INDEX                         */
 /*   4-TERCERA PARTE - INDEX                         */
 /*   5-CUARTA PARTE  - INDEX                         */
+/*   6-PARTE NARANJA - CONTACTO                      */
+/*   7-PARTE GRIS    - CONTACTO                      */
+/*   8-RESPONSIVE    - CONTACTO                      */
 /*****************************************************/
 
 @import url("reset.css");
@@ -85,17 +88,16 @@
     color: #fff;
     font-size: 2em;
     margin: auto;
-    padding-top: 40px;    
+    padding-top: 20px;    
   }
 
 #segunda-parte-naranja #content{
-    height: 350px;
+      width: 800px;
+      margin: auto;
   }
 
 #segunda-parte-naranja section ol{
-    text-align: center;
-    width: 800px;
-    height: 100px;
+    text-align: center;  
     margin-left: auto;
     margin-right: auto;
   }
@@ -131,6 +133,7 @@
     padding-top: 40px;
     font-size: 1.3em;
     color:#fff; 
+    padding-bottom: 40px;
   }
 
 
@@ -146,6 +149,7 @@
   #tercera-parte-gris{
     background-color: #323a45;   
     width: 100%;
+    clear:both;
   }
 
   #tercera-parte-gris #seccion ol li {float: left; display: inline; margin: 0;}
@@ -158,7 +162,8 @@
 
   #tercera-parte-gris #seccion{
     padding-top: 50px;
-    height: 350px;
+    width: 800px;
+    margin:auto;
   }
 
 
@@ -196,12 +201,11 @@
     text-align: left;
     padding-top: 50px;
     font-size: 2em;
+    padding-bottom: 60px;
   }
 
   #tercera-parte-gris section ol{
-    text-align: center;
-    width: 800px;
-    height: 100px;
+    text-align: center;   
     margin-left: auto;
     margin-right: auto;
   }
@@ -210,6 +214,7 @@
     padding-top: 40px;
     font-size: 1.3em;
     color:#fff;
+    padding-top: 60px;
   }
 
 #tercera-parte-gris section ol li article .entry-content a:link, 
@@ -230,8 +235,8 @@
 }
 
 #foot section ol{
-  width: 800px;
-  height: 100px;
+  /*width: 800px;*/
+  /*height: 100px;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -246,7 +251,9 @@
 
 #seccionfoot{
     padding-top: 50px;
-    height:150px;
+    /*height:150px;*/
+    width: 800px;
+    margin: auto;
 }
 
 #imagenseccionfoot-1{   
@@ -312,5 +319,408 @@ footer #logodos{
      border-left: 25px solid transparent ;
      border-top: 35px solid  #ed6c4e;
      border-bottom: 35px solid transparent;  
-    border-right: 25px solid transparent;
+     border-right: 25px solid transparent;
    }
+
+/*****************************************RESPONSIVE HOME*******************************/
+@media screen and (max-width: 320px ){
+  
+#segunda-parte-naranja #content{
+      width: 200px;      
+  }
+
+#segunda-parte-naranja section ol  li .hentry{
+    width: 200px;
+    border-bottom: 0.08em solid #fff;
+    border-right:  0 none;
+  }
+
+#segunda-parte-naranja section ol li:last-child .hentry{
+    border-bottom:  0 none;
+  }
+
+
+  #tercera-parte-gris #seccion ol li .articulo{
+    width: 200px; 
+    padding-left: 10px;    
+  }
+
+  #tercera-parte-gris #seccion{
+    width: 200px;
+    padding-top: 0px;
+  }
+
+  #tercera-parte-gris .articulo .entry-content{
+    width:200px;   
+    padding-top: 10px;
+  }
+
+  #tercera-parte-gris #imagenseccion{
+    padding-top: 0px;    
+  }
+
+  #tercera-parte-gris .articulo .entry-content h2 {
+    padding-top: 10px;
+  }
+
+#seccionfoot ol li .articulo{
+    width: 200px; 
+    padding-left: 5px;     
+}
+
+#seccionfoot{
+    padding-top: 10px;    
+    width: 200px;
+    }
+
+#imagenseccionfoot-1{   
+    width:30px;
+    height:30px;
+    margin: auto;
+    padding-left: 99px;
+}
+
+#imagenseccionfoot-2{   
+    width:30px;
+    height:30px;
+    margin: auto;
+    padding-left: 99px;
+}
+
+.entry-content-footer-1 p{    
+    width:200px;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+
+.entry-content-footer-2 p{    
+    width:200px;
+    padding-top: 5px;
+    padding-left: 10px;
+   
+}
+
+  footer #logo{   
+    width: 100px;
+    height:70px;
+    padding-top: 50px;
+  }
+
+footer #logodos{   
+    width: 150px;
+    height:100px;
+    padding-top: 30px;
+  }
+
+  }
+
+
+  @media screen and (max-width: 768px ){
+  
+#segunda-parte-naranja #content{
+      width: 320px;      
+  }
+
+#segunda-parte-naranja section ol  li .hentry{
+    width: 320px;
+    border-bottom: 0.08em solid #fff;
+    border-right:  0 none;
+  }
+
+#segunda-parte-naranja section ol li:last-child .hentry{
+    border-bottom:  0 none;
+  }
+
+
+  #tercera-parte-gris #seccion ol li .articulo{
+    width: 320px; 
+    padding-left: 10px;    
+  }
+
+  #tercera-parte-gris #seccion{
+    width: 320px;
+    padding-top: 0px;
+  }
+
+  #tercera-parte-gris .articulo .entry-content{
+    width:320px;   
+    padding-top: 10px;
+  }
+
+  #tercera-parte-gris #imagenseccion{
+    padding-top: 0px;    
+  }
+
+  #tercera-parte-gris .articulo .entry-content h2 {
+    padding-top: 10px;
+  }
+
+#seccionfoot ol li .articulo{
+    width: 320px; 
+    padding-left: 5px;     
+}
+
+#seccionfoot{
+    padding-top: 10px;    
+    width: 320px;
+    }
+
+#imagenseccionfoot-1{   
+    width:30px;
+    height:30px;
+    margin: auto;
+    padding-left: 99px;
+}
+
+#imagenseccionfoot-2{   
+    width:30px;
+    height:30px;
+    margin: auto;
+    padding-left: 99px;
+}
+
+.entry-content-footer-1 p{    
+    width:320px;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+
+.entry-content-footer-2 p{    
+    width:320px;
+    padding-top: 5px;
+    padding-left: 10px;
+   
+}
+
+  footer #logo{   
+    width: 100px;
+    height:70px;
+    padding-top: 50px;
+  }
+
+footer #logodos{   
+    width: 150px;
+    height:100px;
+    padding-top: 30px;
+  }
+
+  }
+
+   /***********************************************CONTACTO*****************************/
+   /*********************************************PARTE NARANJA**************************/
+
+   #segunda-parte-naranja #content-contact
+   {
+     width: 600px;
+  margin: auto;
+  padding: auto; 
+
+   }
+
+   #segunda-parte-naranja #content-contact h1{
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 40px;
+   }
+
+  #segunda-parte-naranja iframe{
+    width:300px;
+    height:300px;    
+    float:left;
+  }
+
+ #segunda-parte-naranja #content-contact #texto-contacto{
+  color: #fff;  
+  float: right; 
+  font-size: 0.85em;
+  }
+
+
+ #texto-contacto #texto-1, #texto-contacto #texto-2, #texto-contacto #texto-3{
+  text-align: left;  
+  width: 220px;
+
+}
+
+#texto-contacto #texto-2, #texto-contacto #texto-3{
+  padding-top: 20px;
+}
+
+/***********************************************PARTE GRIS-CONTACTO**********************/
+
+#tercera-parte-gris h1{
+  color: #fff;
+  font-size: 2em;
+}
+
+#tercera-parte-gris #section-form-contact{width: 600px;
+  margin: auto;
+  padding: auto;  
+}
+
+#tercera-parte-gris #section-form-contact h1{
+text-align: left;
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+
+  .form{
+    text-align: left;
+    padding-bottom: 60px;
+  }
+
+  .form input{   
+     width: 183px;
+     background-color: #292f39;
+     border:none;
+     padding: 7px;
+  }
+
+  .form p{
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .form p textarea{width:100%;
+    height:150px;
+  background-color: #292f39;
+     border:none;
+     padding-top: 10px;
+     padding-left: 10px;}
+
+    .form span{
+      color:#fff;
+      font-size: 1.2em;
+      padding-top: 10px;
+    }
+
+    .form #clear{
+      margin-left: 20px;
+      padding-bottom: 20px;
+    }
+
+  #barragris{
+  background-color: #292f39;  
+  width: 100%;
+  }
+
+  .espacio{
+    clear: both;
+  }
+
+/**********************RESPONSIVE - CONTACTO *********************************************/
+@media screen and (max-width: 320px ){
+#segunda-parte-naranja #content-contact
+   {
+     width: 200px;  
+   }
+
+   #segunda-parte-naranja #content-contact h1{
+     margin-left: 10px;
+   }
+
+  #segunda-parte-naranja iframe{
+    width:200px;
+    height:200px;    
+    margin-left: 10px;    
+  }
+
+ #segunda-parte-naranja #content-contact #texto-contacto{
+    
+  float:none;
+  margin-left: 10px;
+  margin-top: 10px;
+  }
+
+
+ #texto-contacto #texto-1, #texto-contacto #texto-2, #texto-contacto #texto-3{
+  width: 200px;
+
+}
+
+#tercera-parte-gris #section-form-contact h1{
+    margin-left: 10px;
+
+  }
+
+  #tercera-parte-gris #section-form-contact{
+    width:200px;
+    
+  }
+
+  .form{    
+    margin-left: 10px;
+  }
+
+  .form input{   
+     margin-top: 10px; 
+     width:183px;    
+  }
+
+   .form p textarea{
+    width:183px;
+    height:100px;
+  }
+
+ }
+
+
+/***************************************768-ipad***********************************/
+
+@media screen and (max-width: 768px ){
+#segunda-parte-naranja #content-contact
+   {
+     width: 320px;  
+   }
+
+   #segunda-parte-naranja #content-contact h1{
+     margin-left: 10px;
+   }
+
+  #segunda-parte-naranja iframe{
+    width:320px;
+    height:320px;    
+    margin-left: 10px;    
+  }
+
+ #segunda-parte-naranja #content-contact #texto-contacto{
+    
+  float:none;
+  margin-left: 10px;
+  margin-top: 10px;
+  }
+
+
+ #texto-contacto #texto-1, #texto-contacto #texto-2, #texto-contacto #texto-3{
+  width: 320px;
+
+}
+
+#tercera-parte-gris #section-form-contact h1{
+    margin-left: 10px;
+
+  }
+
+  #tercera-parte-gris #section-form-contact{
+    width:320px;
+    
+  }
+
+  .form{    
+    margin-left: 10px;
+  }
+
+  .form input{   
+     margin-top: 10px; 
+     width:300px;    
+  }
+
+   .form p textarea{
+    width:300px;
+    height:100px;
+  }
+
+ }
+  
