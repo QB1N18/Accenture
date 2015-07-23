@@ -8,13 +8,62 @@
  *    E-mail: joseamn@outlook.com
  *
  *****************************/
+
+ /************
+
+     Reset
+
+  ************/
+ a{
+ 	text-decoration: none;
+ }
+ ul{
+ 	list-style: none;
+ }
+
+ /******************
+
+     General 
+
+  ******************/
+  .positionRelative{
+  	position: relative;
+  }
+  .linkMore a{
+  	color:#ffffff;
+  	font-size:150%;
+  	font-style: italic;
+  	font-weight: bold;
+  }
+  .headersSections{
+  	font-size: 270%;
+  	color:#ffffff;
+  }
+  .triangulos{
+  	position:absolute;
+  	top:0;
+  	left:45%;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #323a45;
+  }
+  .trianguloNaranja{
+  	border-top: 30px solid #ed6c4e;
+  }
+ /******************
+
+     Primer barra 
+
+  ******************/
   #barranaranjasuperior{
   background-color: #ed6c4e;
   height: 10px;
   width: 100%;
   }
   /************
+
      Header
+
   ************/
   header{
     background-color: #323a45;
@@ -31,6 +80,7 @@
   header nav ul {
     margin: 0 auto; 
     width: 800px;
+    max-width: 100%;
   }
   header nav ul li {
     display:inline-block;
@@ -42,7 +92,7 @@
     display: inline-block;
     height: 30px;
     padding: 20px 1.5em;
-    text-decoration: none;
+    
   }
   header nav ul li a:hover{
     background: #292f39;
@@ -64,27 +114,175 @@
   }
   
   /*****************
-     FirstSection
+
+     First Section
+
   *****************/
   #firstSection{
     background: #ED6C4E;
     width: 100%;
+    float:left;
   }
-  #firstSection h2, #firstSection article p , #firstSection span a {
+  #firstSection h2, #firstSection article p , #firstSection a {
     color:#ffffff;
   }
   #firstSection h2 {
-    padding:80px 0 0 0;
-    font-size: 270%;
-    font-weight: 100;
+    padding:80px 0 60px 0;
+    
   }
   #firstSection article{
-    width:100%;
+    width:1024px;
+    max-width: 100%;
+    margin: 0 auto;
   }
-
-  #firstSection article img{
+  #firstSection article img ,
+  #textFirstSection
+  {
     float:left;
   }
+  #textFirstSection{
+  	width:57%;
+  }
+  #textFirstSection p{
+  	text-align: left;
+  	font-size:110%;
+  }
+  #firstSection article img{
+  	margin:0 20px 0 98px;
+    max-width: 100%;
+  }
   .parrafo_1{
-    color:black;
+    margin: 30px 0;
+  }
+  .parrafo_2{
+  	margin: 0 0 40px 0;
+  }
+  .parrafo_3{
+  	padding-bottom:80px;
+  }
+  /*****************
+
+     Second Section
+
+  *****************/
+  #secondSection{
+  	background: #323A45;
+  	width:100%;
+  	float:left;
+  }
+  #secondSection h2{
+  	padding:100px 0 10px 0;
+  }
+  #secondSection h3{
+  	font-size: 70%;
+  	padding:0 0 80px 0;
+  	color: #68707b;
+  }
+  #principlesSection{
+  	width:850px;
+  	max-width: 100%;
+  	margin:0 auto;
+  }
+  .articlesPrinciples{
+  	float:left;
+  	width: 400px;
+	max-width: 100%;
+  }
+  .articlesPrinciples:nth-child(1),
+  .articlesPrinciples:nth-child(3){
+  	margin:0 50px 50px 0;
+  }
+  .articlesPrinciples img{
+  	float:left;
+  }
+  .articlesPrinciples p {
+  	color:#ffffff;
+  	text-align: left;
+  	padding:10px 0 40px 160px;
+  }
+  .articlesPrinciples p:last-child{
+  	padding-bottom:0;
+  }
+  /*****************
+
+     Footer Section
+
+  *****************/
+  footer{
+  	background:#323A45;
+  	clear: both;
+  	width: 100%;
+  }
+  footer h2{
+  	padding:30px 0 8px 0;
+  }
+  footer h3{
+  	font-size: 70%;
+  	color: #68707b;
+  	padding:0 0 85px 0;
+  }
+  footer figure{
+  	padding:0 0 100px 0;
+  }
+  footer figure a{
+  	margin-left:80px;
+  }
+  footer figure a:first-child{
+  	margin:0;
+  }
+  /*****************
+
+     Last line Section
+
+  *****************/
+  #lastLineSection{
+  	width: 100%;
+  	height:30px;
+  	background: #292f39;
+  }
+  /*****************
+
+     Media Queries 768px(Tablets)
+
+  *****************/
+  @media screen and (max-width: 768px){
+  	 #firstSection article img{
+      margin-left:27%;
+     }
+     #textFirstSection {
+      width:80%;
+      margin-left:10%;
+     }
+     .articlesPrinciples,
+     .articlesPrinciples:nth-child(1),
+     .articlesPrinciples:nth-child(3){
+      width:80%;
+      margin:0 0 50px 10%;
+     }
+     footer figure a:first-child{
+      margin-left: 13%;
+     }
+     footer figure a:nth-child(4) img{
+      margin-top: 20px;
+     }
+  }
+  /*****************
+
+     Media Queries 320px(Smart Phones)
+
+  *****************/
+  @media screen and (max-width: 320px){
+    #firstSection article img{
+      margin-left:0;
+     }
+     .articlesPrinciples,
+     .articlesPrinciples:nth-child(1),
+     .articlesPrinciples:nth-child(3){
+      margin:0 0 50px 0;
+      width:100%;
+     }
+     footer figure a{
+       display: block;
+       margin:40px 0;
+     }
   }
