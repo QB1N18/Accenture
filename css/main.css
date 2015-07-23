@@ -414,6 +414,100 @@ footer #logodos{
   }
 
   }
+
+
+  @media screen and (max-width: 768px ){
+  
+#segunda-parte-naranja #content{
+      width: 320px;      
+  }
+
+#segunda-parte-naranja section ol  li .hentry{
+    width: 320px;
+    border-bottom: 0.08em solid #fff;
+    border-right:  0 none;
+  }
+
+#segunda-parte-naranja section ol li:last-child .hentry{
+    border-bottom:  0 none;
+  }
+
+
+  #tercera-parte-gris #seccion ol li .articulo{
+    width: 320px; 
+    padding-left: 10px;    
+  }
+
+  #tercera-parte-gris #seccion{
+    width: 320px;
+    padding-top: 0px;
+  }
+
+  #tercera-parte-gris .articulo .entry-content{
+    width:320px;   
+    padding-top: 10px;
+  }
+
+  #tercera-parte-gris #imagenseccion{
+    padding-top: 0px;    
+  }
+
+  #tercera-parte-gris .articulo .entry-content h2 {
+    padding-top: 10px;
+  }
+
+#seccionfoot ol li .articulo{
+    width: 320px; 
+    padding-left: 5px;     
+}
+
+#seccionfoot{
+    padding-top: 10px;    
+    width: 320px;
+    }
+
+#imagenseccionfoot-1{   
+    width:30px;
+    height:30px;
+    margin: auto;
+    padding-left: 99px;
+}
+
+#imagenseccionfoot-2{   
+    width:30px;
+    height:30px;
+    margin: auto;
+    padding-left: 99px;
+}
+
+.entry-content-footer-1 p{    
+    width:320px;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+
+.entry-content-footer-2 p{    
+    width:320px;
+    padding-top: 5px;
+    padding-left: 10px;
+   
+}
+
+  footer #logo{   
+    width: 100px;
+    height:70px;
+    padding-top: 50px;
+  }
+
+footer #logodos{   
+    width: 150px;
+    height:100px;
+    padding-top: 30px;
+  }
+
+  }
+
    /***********************************************CONTACTO*****************************/
    /*********************************************PARTE NARANJA**************************/
 
