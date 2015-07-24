@@ -1,19 +1,18 @@
 /*
- *    Name : Web Page About Us Collaboration Dynamic Development
- *  
- *    Date : July 2015
- *
- *    Author: Jose Antonio Monge Navarro
- *
- *    E-mail: joseamn@outlook.com
- *
- *****************************/
+  Name : Web Page About Us Collaboration Dynamic Development
+  
+  Date : July 2015
 
- /************
+  Author: Jose Antonio Monge Navarro
 
+  E-mail: joseamn@outlook.com
+
+*/
+
+ /*
      Reset
 
-  ************/
+  */
  a{
  	text-decoration: none;
  }
@@ -21,11 +20,11 @@
  	list-style: none;
  }
 
- /******************
+ /*
 
      General 
 
-  ******************/
+  */
   .positionRelative{
   	position: relative;
   }
@@ -50,25 +49,33 @@
   .trianguloNaranja{
   	border-top: 30px solid #ed6c4e;
   }
- /******************
+ /*
 
      Primer barra 
 
-  ******************/
+  */
   #barranaranjasuperior{
-  background-color: #ed6c4e;
+  background: #ed6c4e;
   height: 10px;
   width: 100%;
   }
-  /************
+  /*
 
      Header
 
-  ************/
+  */
   header{
     background-color: #323a45;
     width:100%;
   }
+  header img{
+    margin:40px auto 60px auto;
+  }
+   /*
+
+     Nav
+
+  */
   header nav {
     width:100%;
     line-height: 30px;  
@@ -109,15 +116,12 @@
     border-bottom:#ed6c4e;
     color:#ddd;
   }
-  header img{
-    margin:40px auto 60px auto;
-  }
   
-  /*****************
+  /*
 
      First Section
 
-  *****************/
+  */
   #firstSection{
     background: #ED6C4E;
     width: 100%;
@@ -160,11 +164,11 @@
   .parrafo_3{
   	padding-bottom:80px;
   }
-  /*****************
+  /*
 
      Second Section
 
-  *****************/
+  */
   #secondSection{
   	background: #323A45;
   	width:100%;
@@ -186,7 +190,7 @@
   .articlesPrinciples{
   	float:left;
   	width: 400px;
-	max-width: 100%;
+	  max-width: 100%;
   }
   .articlesPrinciples:nth-child(1),
   .articlesPrinciples:nth-child(3){
@@ -203,11 +207,11 @@
   .articlesPrinciples p:last-child{
   	padding-bottom:0;
   }
-  /*****************
+  /*
 
      Footer Section
 
-  *****************/
+  */
   footer{
   	background:#323A45;
   	clear: both;
@@ -230,22 +234,22 @@
   footer figure a:first-child{
   	margin:0;
   }
-  /*****************
+  /*
 
      Last line Section
 
-  *****************/
+  */
   #lastLineSection{
   	width: 100%;
   	height:30px;
   	background: #292f39;
   }
-  /*****************
+  /*
 
      Media Queries 768px(Tablets)
 
-  *****************/
-  @media screen and (max-width: 768px){
+  */
+  @media screen and (max-width: 800px){
   	 #firstSection article img{
       margin-left:27%;
      }
@@ -266,23 +270,49 @@
       margin-top: 20px;
      }
   }
-  /*****************
+  /*
 
      Media Queries 320px(Smart Phones)
 
-  *****************/
-  @media screen and (max-width: 320px){
+  */
+  @media screen and (max-width: 400px){
+
+
+
+    header nav ul li:nth-child(2),
+    header nav ul li:nth-child(3),
+    header nav ul li:nth-child(4),
+    header nav ul li:nth-child(5){
+      display:none;
+    }
+    header nav ul li{
+      width:100%;
+      margin:10px 0;
+      background:#ed6c4e; 
+    }
+    header nav ul li a{
+      color:#ffffff;
+      padding: 3px 200px 3px 0;
+    }
+    header nav ul li:first-child a:hover{
+      border:0;
+      background: #ed6c4e;
+    }
     #firstSection article img{
       margin-left:0;
      }
-     .articlesPrinciples,
-     .articlesPrinciples:nth-child(1),
-     .articlesPrinciples:nth-child(3){
-      margin:0 0 50px 0;
-      width:100%;
-     }
-     footer figure a{
-       display: block;
-       margin:40px 0;
-     }
+
+    .articlesPrinciples,
+    .articlesPrinciples:nth-child(1),
+    .articlesPrinciples:nth-child(3){
+     margin:0 0 50px 0;
+     width:100%;
+    }
+    footer figure a{
+      display: block;
+      margin:40px 0;
+    }
+    footer figure a:first-child{
+      margin:0;
+    }
   }
