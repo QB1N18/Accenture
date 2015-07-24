@@ -16,6 +16,10 @@
   Nav 
 
 */
+.positionRelative{
+   position: relative;
+  }
+
 header nav {
     width:100%;
     line-height: 30px;  
