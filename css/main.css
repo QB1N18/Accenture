@@ -24,6 +24,10 @@
     background-color: #323a45;    
     width: 100%;
   }
+
+  header img{
+    margin:40px auto 60px auto;
+  }
 /*
   body #primera-parte-gris header nav {
     height: 45px;
@@ -54,12 +58,16 @@
     border-bottom:3px solid #ed6c4e;
   }
 */
-  body #primera-parte-gris #logo{
+header img{
+    margin:40px auto 60px auto;
+  }
+
+  /*body #primera-parte-gris #logo{
     clear:both;
     margin: auto;
     text-align: center;    
   }
-
+*/
    body #primera-parte-gris #textoprincipal{
     font-size: 2.5em;
     color: #68707b
