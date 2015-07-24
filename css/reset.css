@@ -36,3 +36,6 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
   }
 
+ a{
+  text-decoration: none;
+ }

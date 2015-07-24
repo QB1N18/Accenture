@@ -5,7 +5,7 @@
   Author: Jose Antonio Monge Navarro
   E-mail: joseamn@outlook.com
 */
-
+@import url("mainNav.css");
  /*
      Reset
   */
@@ -61,50 +61,7 @@
   header img{
     margin:40px auto 60px auto;
   }
-   /*
-     Nav
-  */
-  header nav {
-    width:100%;
-    line-height: 30px;  
-    border: 5px;
-    border-bottom:#68707B solid 1px;
-    float:left;
-  }
-  
-  header nav ul {
-    margin: 0 auto; 
-    width: 800px;
-    max-width: 100%;
-  }
-  header nav ul li {
-    display:inline-block;
-  }
-  
-  header nav ul li a {
-    font-size: 120%;
-    color: #68707b;
-    display: inline-block;
-    height: 30px;
-    padding: 20px 1.5em;
-    
-  }
-  header nav ul li a:hover{
-    background: #292f39;
-    color: #68707b;    
-    border-bottom:3px solid #ed6c4e;
-  }
-  .active {
-    border-bottom:3px solid #ed6c4e;
-  }
-  .active a {
-    color:#ddd;
-  }
-  .active a:hover{
-    border-bottom:#ed6c4e;
-    color:#ddd;
-  }
-  
+   
   /*
      First Section
   */
@@ -253,27 +210,6 @@
   */
   @media screen and (max-width: 400px){
 
-
-
-    header nav ul li:nth-child(2),
-    header nav ul li:nth-child(3),
-    header nav ul li:nth-child(4),
-    header nav ul li:nth-child(5){
-      display:none;
-    }
-    header nav ul li{
-      width:100%;
-      margin:10px 0;
-      background:#ed6c4e; 
-    }
-    header nav ul li a{
-      color:#ffffff;
-      padding: 3px 200px 3px 0;
-    }
-    header nav ul li:first-child a:hover{
-      border:0;
-      background: #ed6c4e;
-    }
     #firstSection article img{
       margin-left:0;
      }
