@@ -1,0 +1,246 @@
+/*****************************************************/
+/*   PROYECTO ACCENTURE:                             */
+/*   KEVIN CORTES OBALDIA  -  JOAN ESQUIVEL          */
+/*   JOSE MONGE NAVARRO    -  ANDRES PEREZ MATA      */
+/*   1-RESET                                         */
+/*   2-PRIMERA PARTE - CONTACT                       */
+/*   3-SEGUNDA PARTE - CONTACT                       */
+/*   4-TERCERA PARTE - CONTACT                       */
+/*   5-RESPONSIVE                                    */
+/*****************************************************/
+
+@import url("reset.css");
+@import url("mainNav.css");
+
+/*******************************************PRIMERA PARTE *******************************/
+
+body #barranaranja{
+  background-color: #ed6c4e;
+  height: 10px;
+  width: 100%;
+}
+
+body #primera-parte-gris{
+    background-color: #323a45;    
+    width: 100%;
+}
+
+header img{
+  margin:40px auto 60px auto;
+}
+
+/*********************************************SEGUNDA PARTE ********************************/
+
+#segunda-parte-naranja{
+  background-color: #ed6c4e;    
+  width: 100%;
+}
+  
+#segunda-parte-naranja h1{
+  color: #fff;
+  font-size: 2.1em;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;    
+}
+
+#segunda-parte-naranja #content-contact {
+  width: 600px;
+  margin: auto;
+  padding: auto; 
+}
+
+#segunda-parte-naranja #content-contact h1{
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#segunda-parte-naranja iframe{
+  width:300px;
+  height:300px;    
+  float:left;
+}
+
+#segunda-parte-naranja #content-contact #texto-contacto{
+  color: #fff;  
+  float: right; 
+  font-size: 0.85em;
+  padding-bottom: 40px;
+}
+
+#texto-contacto #texto-1, #texto-contacto #texto-2, #texto-contacto #texto-3{
+  text-align: left;  
+  width: 220px;
+}
+
+#texto-contacto #texto-2, #texto-contacto #texto-3{
+  padding-top: 20px;
+}
+
+/***********************************************TERCERA PARTE*****************************/
+#tercera-parte-gris{
+  background-color: #323a45;   
+  width: 100%;   
+}
+
+#tercera-parte-gris h1{
+  color: #fff;
+  font-size: 2em;
+}
+
+#tercera-parte-gris #section-form-contact{width: 600px;
+  margin: auto;
+  padding: auto;  
+}
+
+#tercera-parte-gris #section-form-contact h1{
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form{
+  text-align: left;
+  padding-bottom: 60px;
+}
+
+.form input{   
+  width: 183px;
+  background-color: #292f39;
+  border:none;
+  padding: 7px;
+}
+
+.form p{
+  margin-top: 20px;
+  text-align: left;
+}
+
+.form p textarea{width:100%;
+  height:150px;
+  background-color: #292f39;
+  border:none;
+  padding-top: 10px;
+  padding-left: 10px;}
+
+.form span{
+  color:#fff;
+  font-size: 1.2em;
+  padding-top: 10px;
+}
+
+.form #clear{
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+#barragris{
+  background-color: #292f39;  
+  width: 100%;
+}
+
+.espacio{
+  clear: both;
+}
+
+/************************************  RESPONSIVE  *********************************************/
+
+@media screen and (max-width: 320px ){
+  #segunda-parte-naranja #content-contact{
+    width: 200px;  
+  }
+
+  #segunda-parte-naranja #content-contact h1{
+    margin-left: 10px;
+  }
+
+  #segunda-parte-naranja iframe{
+    width:200px;
+    height:200px;    
+    margin-left: 10px;   
+    padding-bottom: 30px; 
+  }
+
+  #segunda-parte-naranja #content-contact #texto-contacto{
+    float:none;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+
+  #texto-contacto #texto-1, #texto-contacto #texto-2, #texto-contacto #texto-3{
+    width: 200px;
+  }
+
+  #tercera-parte-gris #section-form-contact h1{
+    margin-left: 10px;
+  }
+
+  #tercera-parte-gris #section-form-contact{
+    width:200px;    
+  }
+
+  .form{    
+    margin-left: 10px;
+  }
+
+  .form input{   
+    margin-top: 10px; 
+    width:183px;    
+  }
+
+  .form p textarea{
+    width:183px;
+    height:100px;
+  }
+}
+
+@media screen and (max-width: 768px ){
+  #segunda-parte-naranja #content-contact{
+    width: 320px;  
+  }
+
+  #segunda-parte-naranja #content-contact h1{
+    margin-left: 10px;
+  }
+
+  #segunda-parte-naranja iframe{
+    width:320px;
+    height:320px;    
+    margin-left: 10px;
+    padding-bottom: 30px;    
+  }
+
+  #segunda-parte-naranja #content-contact #texto-contacto{
+    float:none;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  #texto-contacto #texto-1, #texto-contacto #texto-2, #texto-contacto #texto-3{
+    width: 320px;
+  }
+
+  #tercera-parte-gris #section-form-contact h1{
+    margin-left: 10px;
+  }
+
+  #tercera-parte-gris #section-form-contact{
+    width:320px;
+  }
+
+  .form{    
+    margin-left: 10px;
+  }
+
+  .form input{   
+    margin-top: 10px; 
+    width:300px;    
+  }
+
+  .form p textarea{
+    width:300px;
+    height:100px;
+  }
+}
